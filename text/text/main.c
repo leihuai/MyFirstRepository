@@ -31,6 +31,8 @@ int qiuji(int m,int n){
     return m * n;
 }
 
+//这里添加李四的代码 正义必胜 人民必胜 和平必胜
+
 void func(struct glb g){
     g.x = 2013;
     strcpy(g.s,"c program");
