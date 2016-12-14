@@ -26,6 +26,11 @@ int sum(int m,int n){
     return m + n;
 }
 
+//这里写一个乘积的代码
+int qiuji(int m,int n){
+    return m * n;
+}
+
 void func(struct glb g){
     g.x = 2013;
     strcpy(g.s,"c program");
