@@ -31,6 +31,8 @@ int qiuji(int m,int n){
     return m * n;
 }
 
+//这里是张三写的代码 中国共产党万岁
+
 void func(struct glb g){
     g.x = 2013;
     strcpy(g.s,"c program");
