@@ -20,6 +20,12 @@ struct glb
     int x;
     char s[20];
 }g;
+
+//这里写一个求和的函数
+int sum(int m,int n){
+    return m + n;
+}
+
 void func(struct glb g){
     g.x = 2013;
     strcpy(g.s,"c program");
