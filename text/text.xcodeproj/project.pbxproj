@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B8689C31E010A6700152EA2 /* OtherCFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B8689C11E010A6700152EA2 /* OtherCFile.c */; };
+		6B8689C61E0129C900152EA2 /* MyCFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B8689C41E0129C900152EA2 /* MyCFile.c */; };
 		6BB986BA1DF1CB0B000D95D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BB986B91DF1CB0B000D95D8 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		6B8689C11E010A6700152EA2 /* OtherCFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OtherCFile.c; sourceTree = "<group>"; };
 		6B8689C21E010A6700152EA2 /* OtherCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCFile.h; sourceTree = "<group>"; };
+		6B8689C41E0129C900152EA2 /* MyCFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyCFile.c; sourceTree = "<group>"; };
+		6B8689C51E0129C900152EA2 /* MyCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCFile.h; sourceTree = "<group>"; };
 		6BB986B61DF1CB0B000D95D8 /* text */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = text; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB986B91DF1CB0B000D95D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				6BB986B91DF1CB0B000D95D8 /* main.c */,
+				6B8689C41E0129C900152EA2 /* MyCFile.c */,
+				6B8689C51E0129C900152EA2 /* MyCFile.h */,
 				6B8689C11E010A6700152EA2 /* OtherCFile.c */,
 				6B8689C21E010A6700152EA2 /* OtherCFile.h */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8689C61E0129C900152EA2 /* MyCFile.c in Sources */,
 				6B8689C31E010A6700152EA2 /* OtherCFile.c in Sources */,
 				6BB986BA1DF1CB0B000D95D8 /* main.c in Sources */,
 			);
